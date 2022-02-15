@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CmsShoopimgCat_ASP_NET.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,9 @@ namespace CmsShoopimgCat_ASP_NET.Infraestruture
     {
         public Context(DbContextOptions<Context> options) 
             : base(options)
-        {
-
+        {         
         }
+        public DbSet<Page> Pages { get; set; }
+       
     }
 }
