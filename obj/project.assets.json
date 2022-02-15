@@ -7148,19 +7148,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinicius.andrade\\.nuget\\packages\\": {}
+    "C:\\Users\\vinic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinicius.andrade\\Desktop\\CmsShoopimgCat_ASP_NET\\CmsShoopimgCat_ASP_NET.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\Desktop\\CmsShoopimgCat_ASP_NET\\CmsShoopimgCat_ASP_NET.csproj",
       "projectName": "CmsShoopimgCat_ASP_NET",
-      "projectPath": "C:\\Users\\vinicius.andrade\\Desktop\\CmsShoopimgCat_ASP_NET\\CmsShoopimgCat_ASP_NET.csproj",
-      "packagesPath": "C:\\Users\\vinicius.andrade\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinicius.andrade\\Desktop\\CmsShoopimgCat_ASP_NET\\obj\\",
+      "projectPath": "C:\\Users\\vinic\\Desktop\\CmsShoopimgCat_ASP_NET\\CmsShoopimgCat_ASP_NET.csproj",
+      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinic\\Desktop\\CmsShoopimgCat_ASP_NET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vinicius.andrade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7211,6 +7211,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7219,7 +7225,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
